@@ -7,6 +7,6 @@ const app = express();
 app.use(express.json());
 app.use('/pokemon', pokemonRoute);
 
-app.listen(PORT, () => {
-    console.log(`Node listening on port ${PORT}`);
+app.listen(port, () => {
+    console.log(`Node listening on port ${port}`);
 });
